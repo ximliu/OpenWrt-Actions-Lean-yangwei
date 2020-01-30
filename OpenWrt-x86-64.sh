@@ -21,6 +21,8 @@ git clone https://github.com/KFERMercer/luci-app-serverchan package/luci-app-ser
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 git clone https://github.com/kang-mk/luci-app-smartinfo package/luci-app-smartinfo
 git clone https://github.com/Lienol/openwrt-package.git package/openwrt-package
+git clone https://github.com/Flowers-in-thorns/my.git package/Flowers-in-thorns
+git clone https://github.com/Leo-Jo-My/luci-app-ssr-plus-Jo package/luci-app-ssr-plus-Jo
 
 
 
@@ -142,6 +144,12 @@ CONFIG_PACKAGE_luci-app-webadmin=y
 CONFIG_PACKAGE_luci-app-frpc=y
 CONFIG_PACKAGE_luci-app-wrtbwmon=y
 CONFIG_PACKAGE_luci-app-hd-idle=y
+CONFIG_PACKAGE_luci-app-ssr-plus-Jo=y
+CONFIG_PACKAGE_luci-app-mwan3helper=y
+CONFIG_PACKAGE_luci-app-passwall=y
+CONFIG_PACKAGE_luci-app-filetransfer=y
+CONFIG_PACKAGE_luci-app-unblockmusic=y
+CONFIG_PACKAGE_luci-app-netdata=y
 EOF
 
 # Configuration PASSWALL
