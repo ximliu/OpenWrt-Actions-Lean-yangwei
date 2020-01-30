@@ -23,8 +23,8 @@ git clone https://github.com/KFERMercer/luci-app-serverchan package/luci-app-ser
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 git clone https://github.com/kang-mk/luci-app-smartinfo package/luci-app-smartinfo
 git clone https://github.com/Lienol/openwrt-package.git package/openwrt-package
-git clone https://github.com/Flowers-in-thorns/my.git
-git clone https://github.com/Leo-Jo-My/luci-app-ssr-plus-Jo
+git clone https://github.com/Flowers-in-thorns/my.git package/Flowers-in-thorns
+git clone https://github.com/Leo-Jo-My/luci-app-ssr-plus-Jo package/luci-app-ssr-plus-Jo
 
 
 
