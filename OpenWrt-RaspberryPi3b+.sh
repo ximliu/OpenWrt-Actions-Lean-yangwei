@@ -25,6 +25,7 @@ git clone https://github.com/kang-mk/luci-app-smartinfo package/luci-app-smartin
 git clone https://github.com/Lienol/openwrt-package.git package/openwrt-package
 #git clone https://github.com/Flowers-in-thorns/my.git package/Flowers-in-thorns
 #git clone https://github.com/Leo-Jo-My/luci-app-ssr-plus-Jo package/luci-app-ssr-plus-Jo
+git clone https://github.com/Flowers-in-thorns/luci-app-vssr-coexist.git package/luci-app-vssr-coexist
 
 
 
@@ -154,6 +155,7 @@ CONFIG_PACKAGE_luci-app-mwan3helper=y
 CONFIG_PACKAGE_luci-app-zerotier=y
 #CONFIG_PACKAGE_luci-app-ssr-plus-Jo=y
 CONFIG_PACKAGE_luci-app-passwall=y
+CONFIG_PACKAGE_luci-app-vssr-coexist=y
 EOF
 
 # Configuration PASSWALL
