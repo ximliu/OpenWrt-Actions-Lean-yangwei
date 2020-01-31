@@ -15,6 +15,7 @@ rm -rf package/lean/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 git cloen https://github.com/Aslin-Ameng/luci-theme-Light.git package/luci-theme-Light
 git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git package/luci-theme-atmaterial
+git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/luci-theme-opentomcat
 
 # 添加第三方软件包
 git clone https://github.com/KFERMercer/luci-app-serverchan package/luci-app-serverchan
@@ -23,6 +24,7 @@ git clone https://github.com/kang-mk/luci-app-smartinfo package/luci-app-smartin
 git clone https://github.com/Lienol/openwrt-package.git package/openwrt-package
 #git clone https://github.com/Flowers-in-thorns/my.git package/Flowers-in-thorns
 #git clone https://github.com/Leo-Jo-My/luci-app-ssr-plus-Jo package/luci-app-ssr-plus-Jo
+git clone https://github.com/Flowers-in-thorns/luci-app-vssr-coexist.git package/luci-app-vssr-coexist
 
 
 
@@ -150,6 +152,7 @@ CONFIG_PACKAGE_luci-app-passwall=y
 CONFIG_PACKAGE_luci-app-filetransfer=y
 CONFIG_PACKAGE_luci-app-unblockmusic=y
 CONFIG_PACKAGE_luci-app-netdata=y
+CONFIG_PACKAGE_luci-app-vssr-coexist=y
 EOF
 
 # Configuration PASSWALL
@@ -174,6 +177,7 @@ cat >> .config <<EOF
 CONFIG_PACKAGE_luci-theme-argon=y
 CONFIG_PACKAGE_luci-theme-Light=y
 CONFIG_PACKAGE_luci-theme-atmaterial=y
+CONFIG_PACKAGE_luci-theme-opentomcat=y
 EOF
 
 # 常用软件包:
