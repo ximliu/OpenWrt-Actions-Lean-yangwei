@@ -15,8 +15,8 @@ rm -rf package/lean/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 git cloen https://github.com/Aslin-Ameng/luci-theme-Light.git package/luci-theme-Light
 git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git package/luci-theme-atmaterial
-git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git
-git clone https://github.com/Leo-Jo-My/luci-theme-leo.git
+git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/luci-theme-opentomcat
+git clone https://github.com/Leo-Jo-My/luci-theme-leo.git package/luci-theme-leo
 
 # 添加第三方软件包
 git clone https://github.com/KFERMercer/luci-app-serverchan package/luci-app-serverchan
