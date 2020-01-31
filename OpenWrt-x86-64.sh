@@ -153,6 +153,8 @@ CONFIG_PACKAGE_luci-app-filetransfer=y
 CONFIG_PACKAGE_luci-app-unblockmusic=y
 CONFIG_PACKAGE_luci-app-netdata=y
 CONFIG_PACKAGE_luci-app-vssr-coexist=y
+CONFIG_LUCI_LANG_zh-tw=y
+CONFIG_LUCI_LANG_en=y
 EOF
 
 # Configuration PASSWALL
