@@ -156,6 +156,8 @@ CONFIG_PACKAGE_luci-app-zerotier=y
 #CONFIG_PACKAGE_luci-app-ssr-plus-Jo=y
 CONFIG_PACKAGE_luci-app-passwall=y
 CONFIG_PACKAGE_luci-app-vssr-coexist=y
+CONFIG_LUCI_LANG_zh-tw=y
+CONFIG_LUCI_LANG_en=y
 EOF
 
 # Configuration PASSWALL
