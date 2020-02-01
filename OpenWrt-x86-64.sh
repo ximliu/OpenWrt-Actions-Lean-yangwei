@@ -12,9 +12,9 @@ sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
 
 # 替换默认Argon主题
 rm -rf package/lean/luci-theme-argon
-git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
-git cloen https://github.com/Aslin-Ameng/luci-theme-Light.git package/luci-theme-Light
-git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git package/luci-theme-atmaterial
+#git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
+#git cloen https://github.com/Aslin-Ameng/luci-theme-Light.git package/luci-theme-Light
+#git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git package/luci-theme-atmaterial
 git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/luci-theme-opentomcat
 
 # 添加第三方软件包
@@ -176,9 +176,9 @@ EOF
 
 # LuCI主题:
 cat >> .config <<EOF
-CONFIG_PACKAGE_luci-theme-argon=y
-CONFIG_PACKAGE_luci-theme-Light=y
-CONFIG_PACKAGE_luci-theme-atmaterial=y
+#CONFIG_PACKAGE_luci-theme-argon=y
+#CONFIG_PACKAGE_luci-theme-Light=y
+#CONFIG_PACKAGE_luci-theme-atmaterial=y
 CONFIG_PACKAGE_luci-theme-opentomcat=y
 EOF
 
