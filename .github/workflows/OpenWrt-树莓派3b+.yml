@@ -67,9 +67,12 @@ jobs:
            git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
           
     - name: 添加diskman      
-      run: cd openwrt && git clone https://github.com/lisaac/luci-app-diskman package/luci-app-diskman
-           mkdir -p package/parted
-           cp -i package/luci-app-diskman/Parted.Makefile package/parted/Makefile
+      run: |
+        cd package
+        mkdir parted
+        cd parted
+        git clone https://github.com/lisaac/luci-app-diskman ../luci-app-diskman
+        cp -i ../luci-app-diskman/Parted.Makefile ../parted/Makefile
 
 
     - name: 更新源
