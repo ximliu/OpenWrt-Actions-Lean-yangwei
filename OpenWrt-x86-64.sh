@@ -139,6 +139,7 @@ EOF
 # 常用LuCI插件选择:
 cat >> .config <<EOF
 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun=y
+CONFIG_PACKAGE_luci-app-acme=y
 CONFIG_PACKAGE_luci-app-transmission=y
 CONFIG_PACKAGE_luci-app-qbittorrent=y
 CONFIG_PACKAGE_luci-app-xlnetacc=y
