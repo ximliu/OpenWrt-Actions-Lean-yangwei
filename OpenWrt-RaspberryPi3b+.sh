@@ -28,10 +28,9 @@ git clone https://github.com/Lienol/openwrt-package.git package/openwrt-package
 git clone https://github.com/Flowers-in-thorns/luci-app-vssr-coexist.git package/luci-app-vssr-coexist
 
 # uci-app-diskman
-./scripts/feeds update luci-lib-json && ./scripts/feeds install luci-lib-json
 git clone https://github.com/lisaac/luci-lib-docker.git package/luci-lib-docker
 git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
-git clone https://github.com/lisaac/luci-app-diskman /package/luci-app-diskman
+git clone https://github.com/lisaac/luci-app-diskman package/luci-app-diskman
 mkdir -p package/parted && cp -i package/luci-app-diskman/Parted.Makefile package/parted/Makefile
 
 
